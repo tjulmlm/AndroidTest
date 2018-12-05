@@ -15,8 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        int alpha = 1;
-        int master = 2;
+        int master = 1;
 
         // Example of a call to a native method
         TextView tv = (TextView) findViewById(R.id.sample_text);
