@@ -20,11 +20,15 @@ public class MainActivity extends AppCompatActivity {
         // Example of a call to a native method
         TextView tv = (TextView) findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
+<<<<<<< HEAD
         int b = 3;
 <<<<<<< HEAD
         int a = 1;
 =======
 >>>>>>> test b=3
+=======
+        int b = 4;
+>>>>>>> test b=4
     }
 
     /**
