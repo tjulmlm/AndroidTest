@@ -21,7 +21,10 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = (TextView) findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
         int b = 3;
+<<<<<<< HEAD
         int a = 1;
+=======
+>>>>>>> test b=3
     }
 
     /**
