@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = (TextView) findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
         int b = 2;
+        int a = 1;
     }
 
     /**
